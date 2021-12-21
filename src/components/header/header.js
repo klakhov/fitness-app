@@ -16,7 +16,6 @@ class Header extends React.Component {
                           <Link className="link" to='/'>Главная</Link>
                           <Link className="link" to='/training'>Занятия</Link>
                           <Link className="link" to='/club'>О клубе</Link>
-                          <Link className="link" to='/about'>О нас</Link>
                           <Link className="link" to='/pricing'>Стоимость</Link>
                           <Link className="link" to='/profile'>Профиль</Link>
                       </div>
