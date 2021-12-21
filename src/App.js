@@ -9,6 +9,7 @@ import Footer from "./components/footer/footer";
 import HomePage from './containers/home-page/home-page';
 import ProfilePage from './containers/profile-page/profile-page';
 import ClubPage from "./containers/map-page/club-page";
+import TrainingPage from "./containers/training-page/training-page";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path='/'  element={<HomePage/>}/>
           <Route exact path='/profile'  element={<ProfilePage/>}/>
           <Route exact path='/club'  element={<ClubPage/>}/>
+          <Route exact path='/training'  element={<TrainingPage/>}/>
       </Routes>
       <Footer/>
     </>
